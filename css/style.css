@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*body*/
+.body {
+  line-height: 1.7;
+  font-family: "Noto Sans JP",MyYuGothicM,YuGothic,-apple-system,BlinkMacSystemFont,"Hiragino kaku Gothic ProN",Meiryo,Verdana,arial,helvetica,sans-serif;
+/*header*/
+.header {
+    background-color: #FFFFFF;
+  }
