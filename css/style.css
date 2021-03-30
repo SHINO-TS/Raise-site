@@ -3,7 +3,95 @@
 .body {
   line-height: 1.7;
   font-family: "Noto Sans JP",MyYuGothicM,YuGothic,-apple-system,BlinkMacSystemFont,"Hiragino kaku Gothic ProN",Meiryo,Verdana,arial,helvetica,sans-serif;
+  font-size: 1.6rem;
+    color: #121212;
+    -webkit-text-size-adjust: 100%;
+}
 /*header*/
 .header {
-    background-color: #FFFFFF;
-  }
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 1100;
+    top: 0;
+    left: 0;
+}
+.header_title p span {
+  margin-left: 16px;
+    white-space: nowrap;
+    font-size: 1.4rem;
+}
+.header_title img{
+  vertical-align: middle;
+  border-style: none;
+  height: 33px;
+  width: auto;
+}
+.main_body {
+    text-align: center;
+    background-image: url(images/bg-hero1.png),url(images/bg-hero2.png),url(images/bg-hero3.png);
+    background-size: auto;
+    background-position: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    z-index: auto;
+    position: absolute;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  margin: 0;
+}
+h1.top_title{
+  display: block;
+
+}
+.main {
+  max-width: 530px;
+    border-radius: 10px;
+    padding: 43px 40px 19px;
+    background-color: #fff;
+    background-position: 0%;
+    display: inline-table;
+    box-sizing: border-box;
+}
+.top_title img {
+  width: 280px;
+    height: auto;
+}
+p.text { 
+  margin: 1.3em 0 .5em;
+  font-weight: 700;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.Btn a {
+  width: 290px;
+    height: 68px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 37px;
+    padding-left: 37px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  font-size: 1.8rem;
+  background-color: #2498b3;
+  border-color: #2498b3;
+  border-radius: 4px;
+  border: solid 1px #c3c3c3;
+  cursor: pointer;
+}
