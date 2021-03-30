@@ -1,0 +1,11 @@
+{
+  "name": "Raise-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaxa-TS/Raise-site.git",
+  "author": "jaxa-TS <jaxa-TS@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
