@@ -9,7 +9,7 @@
     -webkit-text-size-adjust: 100%;
 }
 /*header*/
-.header {
+header.header {
   height: 70px;
   width: 1519px;
     display: flex;
@@ -55,8 +55,11 @@ align-items: center;
 transition: .3s;
 }
 li#special{
-  background-color: #2498b3;
-
+background-color: #2498b3;
+color: #fff;
+}
+a:hover{
+  text-decoration: none;
 }
 .main_body {
   position: relative;
@@ -141,4 +144,70 @@ p.text {
   margin-top: 20px;
   line-height: 1;
   display: inline-block;
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  margin-top: -263px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 1000;
+}
+
+ .fas {
+  font-family: "Font Awesome 5 Pro";
+  border-radius: 50%;
+  content: \f44b;
+  text-align: center;
+}
+.Recommend {
+  position: relative;
+    display: flex;
+    margin-top: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 1000;
+}
+.Recommend-entry {
+  height: 365px;
+  margin: 0 50px;
+  width: 229px;
+}
+.Recommend-title {
+  text-align: center;
+}
+.Recommend-title .Recommend-icon {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    color: #000;
+    border: solid 6px #000;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 100px;
+}
+.Recommend-title p {
+  margin: .2em 0 0;
+    color: #fff;
+}
+.Recommend-body p{
+  margin: .5em 0 0;
+    line-height: 1.7;
+    font-weight: 700;
+    background-color: #000;
+}
+.sec-black {
+  background-color: #000;
+  z-index: 500;
+  height: 400px;
 }
