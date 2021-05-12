@@ -1,5 +1,6 @@
-@import "Foundation/_base";
-@import "Object/Component";
-@import"Object/Utility";
-@import"Layout/header";
-@import"Layout/main";
+@import 'Foundation/reset';
+@import  'Foundation/base';
+@import 'Layout/_header';
+@import 'Layout/_main';
+@import 'Object/Component';
+@import 'Object/Utility';

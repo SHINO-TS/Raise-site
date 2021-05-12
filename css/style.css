@@ -211,3 +211,35 @@ p.text {
   z-index: 500;
   height: 400px;
 }
+#splash {
+  /*fixedで全面に固定*/
+position: fixed;
+z-index: 999;
+width: 100%;
+height: 100%;
+background:#333;
+text-align:center;
+color:#fff;
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+#container{
+  width:100%;
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a{
+  color: #333;
+}
+
+a:hover{
+   text-decoration: none;   
+}

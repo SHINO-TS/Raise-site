@@ -1,0 +1,27 @@
+
+li {
+  @extend .article > p;　//子セレクタ
+}
+ 
+li {
+  @extend .item p; //子孫セレクタ
+}
+ 
+li {
+  @extend  p + a;　//隣接セレクタ
+}
+ 
+li {
+  @extend p ~ a　//間接セレクタ
+}
+.main__text {
+  font-size: 16px;
+  color: #323232;
+}
+ 
+@media screen and (max-width: 568px) {//メディアクエリ内ではエクステンドできません。
+  a {
+    @extend .main__text;
+    padding: 10px;
+  }
+}

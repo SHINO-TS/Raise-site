@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*コメントヘッダー*/
+html body{
+
+font-size: 40px; 
+}
+body{
+ font-size: 60px; 
+}
+h1{
+  font-size: 40px;
+
+  font-weight: 700;
+  
+  padding: 11px;
+  
+  margin: 22px;
+  
+  background-color: aqua;
+}
+strong{
+
+font-family: initial;
+
+font-size: unset;
+
+font-weight: 900;
+}
+ul{
+
+margin: 22px;
+
+padding: 11px;
+
+background-color: aqua;
+
+font-weight: 800;
+
+/* list-style: arabic-indic; */
+}
+ul li{
+
+font-size: 90px;
+
+margin: 11px;
+
+padding: 22px;
+}
+ol{
+
+font-size: 90px;
+
+font-family: fantasy;
+
+list-style: inside;
+}
+ol li{
+
+}
+u {
+
+font-size: xx-large;
+
+font-weight: 900;
+
+font-style: oblique;
+
+color: yellowgreen;
+}
+p sup{
+
+font-size: 90px;
+
+font-family: monospace;
+
+font: -webkit-small-control;
+}
+sup{
+
+font-size: 50px;
+}
+sub{
+
+}
+p sub{
+
+}
+
+div{
+  
+font-size: 70px;
+  
+font-family: fantasy;
+  
+font-weight: bold;
+  
+background-color: aquamarine;
+}
+div h1{
+  font-size: 100px;
+
+}
+abbr {
+  font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    background-color: aqua;
+    color: blueviolet;
+
+}
