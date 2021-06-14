@@ -26,7 +26,7 @@ font-size: unset;
 
 font-weight: 900;
 }
-ul{
+ul {
 
 margin: 22px;
 
@@ -36,9 +36,9 @@ background-color: aqua;
 
 font-weight: 800;
 
-/* list-style: arabic-indic; */
+list-style: inside;
 }
-ul li{
+ul li {
 
 font-size: 90px;
 
@@ -46,17 +46,15 @@ margin: 11px;
 
 padding: 22px;
 }
-ol{
-
+ol {
+padding: 90px;
 font-size: 90px;
 
 font-family: fantasy;
 
-list-style: inside;
+list-style: decimal-leading-zero;
 }
-ol li{
-
-}
+ol li {font-size: 40px;}
 u {
 
 font-size: xx-large;
@@ -94,7 +92,7 @@ font-family: fantasy;
   
 font-weight: bold;
   
-background-color: aquamarine;
+background-color: brown;
 }
 div h1{
   font-size: 100px;
@@ -106,4 +104,19 @@ abbr {
     background-color: aqua;
     color: blueviolet;
 
+}
+td, th {
+  text-align: center;
+  border: 1px solid #b7b7b7;
+}
+table {
+  border-collapse: collapse;
+}
+div > p  {
+
+background-color: aqua;
+}
+p {
+  
+background-color: blue;
 }
