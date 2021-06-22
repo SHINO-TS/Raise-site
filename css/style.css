@@ -93,16 +93,16 @@ h1.top_title{
   width: 413px;
   height: 327px;
   max-width: 530px;
-    border-radius: 10px;
-    padding: 43px 40px 19px;
-    background-color: #fff;
-    background-position: 0%;
-    display: inline-table;
-    box-sizing: border-box;
+  border-radius: 10px;
+  padding: 43px 40px 19px;
+  background-color: #fff;
+  background-position: 0%;
+  display: inline-table;
+  box-sizing: border-box;
 }
 .top_title img {
   width: 280px;
-    height: auto;
+  height: auto;
 }
 img {
   vertical-align: middle;
@@ -115,22 +115,22 @@ p.text {
   height: 81px;
   font-weight: 700;
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
 }
 .Btn a {
-      padding-bottom: 24px;
-    padding-top: 24px;
-    padding-right: 37px;
-    font-size: inherit;
-    padding-left: 37px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-right: 37px;
+  font-size: inherit;
+  padding-left: 37px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
   background-color: #2498b3;
   border-color: #2498b3;
   border-radius: 4px;
